@@ -2,6 +2,7 @@
   <div class="meeting">
     <button
       v-if="meetingSlot.date"
+      type="button"
       class="meeting__button"
       :class="meetingClass"
       :disabled="!meetingSlot.date"
